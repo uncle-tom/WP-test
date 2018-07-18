@@ -1,0 +1,15 @@
+@import url('../style.css');
+
+.row {
+	margin-right: -100px;
+    margin-left: -100px;
+}
+.post-img img {
+	width: 255px !important;
+ height: 247px !important;
+}
+
+.post-title a {
+ font-size: 22px;
+ font-weight: 700;
+}
