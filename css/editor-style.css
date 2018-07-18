@@ -1,15 +1,31 @@
 @import url('../style.css');
 
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+/*.col-md-3 {
+	border-bottom: 5px solid rgb(65,233,255);
+	margin: 10px;
+}*/
 .row {
 	margin-right: -100px;
     margin-left: -100px;
+
 }
 .post-img img {
-	width: 255px !important;
- height: 247px !important;
+	/*width: 255px;*/
+ height: 247px;
+ margin: 0;
 }
-
 .post-title a {
+	text-decoration: none;
+	color: rgb(0,0,0);
  font-size: 22px;
  font-weight: 700;
 }
+
+
+

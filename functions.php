@@ -61,7 +61,7 @@ add_action( 'widgets_init', 'registerThemeSidebars' );
 
 // Admin editor style
 function addAdminEditorStyle() {
-    add_editor_style( get_stylesheet_directory_uri() . '/css/editor-style.css' );
+    add_editor_style( get_stylesheet_directory_uri() . 'css/editor-style.css' );
 };
 //add_action( 'admin_init', 'addAdminEditorStyle' );
 
@@ -70,5 +70,8 @@ add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
  wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css' );
  wp_enqueue_style( 'font-awesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
-    add_editor_style( get_stylesheet_directory_uri() . '/css/editor-style.css' );
+    wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/editor-style.css' );
+ wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
 };
+
+
