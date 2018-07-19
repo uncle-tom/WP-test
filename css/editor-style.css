@@ -1,18 +1,22 @@
 @import url('../style.css');
 
+.navbar {
+	margin-bottom: 30px;
+}
+.nav-link-search {
+	background: url(../ico/Black_Search.ico) no-repeat;
+	margin-top: 12px;
+    margin-left: 30px;
+}
+.nav-link-user{
+	background: url(../ico/man_user.ico) no-repeat;
+	margin-top: 12px;
+    margin-left: 30px;
+}
 .container {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	
-
-}
-/*.col-md-3 {
-	border-bottom: 5px solid rgb(65,233,255);
-	margin: 10px;
-}*/
-.row {
-	margin-right: -100px;
-    margin-left: -100px;
 
 }
 .post-img img {
@@ -25,6 +29,15 @@
 	color: rgb(0,0,0);
  font-size: 22px;
  font-weight: 700;
+}
+.btn {
+	margin: 0 auto;
+	margin-top: 20px;
+	border-color: rgb(65,233,255);
+	color: rgb(65,233,255);
+	background-color: rgb(255,255,255);
+	width: 170px;
+	height: 50px;
 }
 
 

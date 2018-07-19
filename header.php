@@ -18,27 +18,28 @@
 	<header id="header" role="banner">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">FEATURE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse offset-md-9" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           SHARE
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">FACEBOOK</a>
+          <a class="dropdown-item" href="#">TWITTER</a>
+          <a class="dropdown-item" href="#">GOOGLE +</a>
+          <a class="dropdown-item" href="#">PINTEREST</a>
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-search" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-user" href="#"></a>
       </li>
     </ul>
   </div>

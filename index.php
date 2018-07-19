@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="entry-section">
 
-	<div class="container">
+	<div class="container-fluid">
 		  <div class="row">
 			<?php
 			if( have_posts() ):
@@ -21,6 +21,9 @@
 
 			endif;
 			?>
+			<button type="button" class="btn btn-light btn-lg">LOAD MORE</button>
 			</div>
  </div>
 
+</section>
+<?php get_footer(); ?>

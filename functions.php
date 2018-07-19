@@ -72,6 +72,8 @@ function theme_name_scripts() {
  wp_enqueue_style( 'font-awesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
     wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/editor-style.css' );
  wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+ wp_enqueue_script( 'jquery-js', get_template_directory_uri() . 'https://code.jquery.com/jquery-3.3.1.min.js');
+ wp_enqueue_script( 'loadmore-js', get_template_directory_uri() . '/js/loadmore.js');
 };
 
 
